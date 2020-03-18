@@ -1,5 +1,5 @@
 在ls2.c的文件中，若将main函数写成如下形式：
-``cpp
+```cpp
 int main(int argc, char** argv)
 {
     ...
