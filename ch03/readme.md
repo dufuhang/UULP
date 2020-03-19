@@ -102,3 +102,48 @@ main()
     2.set-group-ID
 
     3.sticky
+
+- 设置和修改文件属性
+
+```c
+//修改文件的许可权限和特殊属性
+int result = chmod(char* path, mode_t mode);
+
+//返回值：
+//-1 遇到错误
+//0  成功返回
+```
+
+```c
+//修改文件所有者和组
+int chown(char* path, uid_t owner, gid_t group);
+//path 文件名
+//owner 新的文件所有者ID
+//group 新的组ID
+
+//返回值：
+//-1 遇到错误
+//0  成功返回
+```
+
+```c
+//修改文件最后修改时间和最后访问时间
+int utime(char* path, struct utimbuf* newtimes);
+
+//newtimes 指向结构变量utimbuf的指针，在utime.h文件中
+//返回值：
+//-1 遇到错误
+//0  成功返回
+```
+
+```c
+//修改文件名或移动文件的位置
+int result = rename(char* old, char* new);
+
+//old 原来的文件名或者目录名
+//new 新的文件名或者目录名
+
+//返回值：
+//-1 遇到错误
+//0  成功返回
+```
