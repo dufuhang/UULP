@@ -56,6 +56,7 @@ main()
         st_mtime    文件最后修改时间
         st_atime    文件最后访问时间
         st_ctime    文件属性最后改变时间
+        st_ino      文件的i节点号
         ```
     
     
