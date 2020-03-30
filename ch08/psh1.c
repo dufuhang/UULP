@@ -17,7 +17,6 @@ int main()
     int numargs;                    //index into array
     char argbuf[ARGLEN];            //read stuff here
     numargs = 0;
-
     while (numargs < MAXARGS)
     {
         printf("Arg[%d]?", numargs);
