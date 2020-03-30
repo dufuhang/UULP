@@ -1,0 +1,171 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARGLEN	ch08/psh1.c	9;"	d	file:
+ARGLEN	ch08/psh2.c	10;"	d	file:
+ASK	ch06/play_again3.c	8;"	d	file:
+ASK	ch06/play_again4.c	10;"	d	file:
+BEEP	ch06/play_again3.c	11;"	d	file:
+BEEP	ch06/play_again4.c	13;"	d	file:
+BLANK	ch07/bounce.h	6;"	d
+BLANK	ch07/bounce1d.c	8;"	d	file:
+BOT_ROW	ch07/bounce.h	9;"	d
+BUFFERSIZE	ch02/cp1.c	5;"	d	file:
+COPYMODE	ch02/cp1.c	6;"	d	file:
+DELAY	ch08/waitdemo1.c	3;"	d	file:
+DELAY	ch08/waitdemo2.c	3;"	d	file:
+DFL_SYMBOL	ch07/bounce.h	7;"	d
+INPUTLEN	ch07/sigactdemo.c	5;"	d	file:
+INPUTLEN	ch07/sigdemo3.c	12;"	d	file:
+LEFTEDGE	ch07/hello5.c	6;"	d	file:
+LEFT_EDGE	ch07/bounce.h	10;"	d
+LINELEN	ch01/more01.c	3;"	d	file:
+LINELEN	ch01/more02.c	3;"	d	file:
+MAXARGS	ch08/psh1.c	7;"	d	file:
+MAXARGS	ch08/psh2.c	9;"	d	file:
+MESSAGE	ch07/bounce1d.c	7;"	d	file:
+PAGELEN	ch01/more01.c	2;"	d	file:
+PAGELEN	ch01/more02.c	4;"	d	file:
+QUESTION	ch06/play_again0.c	5;"	d	file:
+QUESTION	ch06/play_again1.c	8;"	d	file:
+QUESTION	ch06/play_again2.c	8;"	d	file:
+RIGHTEDGE	ch07/hello5.c	7;"	d	file:
+RIGHT_EDGE	ch07/bounce.h	11;"	d
+ROW	ch07/hello5.c	8;"	d	file:
+SHOWHOST	ch02/who1.c	6;"	d	file:
+SHOWHOST	ch02/who2.c	8;"	d	file:
+SLEEPTIME	ch06/play_again3.c	10;"	d	file:
+SLEEPTIME	ch06/play_again4.c	12;"	d	file:
+TICKS_PER_SEC	ch07/bounce.h	14;"	d
+TOP_ROW	ch07/bounce.h	8;"	d
+TRIES	ch06/play_again3.c	9;"	d	file:
+TRIES	ch06/play_again4.c	11;"	d	file:
+X_INIT	ch07/bounce.h	12;"	d
+X_TTM	ch07/bounce.h	16;"	d
+Y_INIT	ch07/bounce.h	13;"	d
+Y_TTM	ch07/bounce.h	17;"	d
+ball_move	ch07/bounce2d.c	/^void ball_move(int signum)$/;"	f
+bounce_or_lose	ch07/bounce2d.c	/^int bounce_or_lose(struct ppball* bp)$/;"	f
+child_code	ch08/waitdemo1.c	/^void child_code(int delay)$/;"	f
+child_code	ch08/waitdemo2.c	/^void child_code(int delay)$/;"	f
+col	ch07/bounce1d.c	/^int col;    \/\/current column$/;"	v
+countdown	ch07/ticker_demo.c	/^void countdown(int signum)$/;"	f
+ctrl_c_handler	ch06/play_again4.c	/^void ctrl_c_handler(int signum)$/;"	f
+dir	ch07/bounce1d.c	/^int dir;    \/\/where we are going$/;"	v
+do_list	ch03/ls2.c	/^void do_list(char* dirname)$/;"	f
+do_ls	ch03/ls1.c	/^void do_ls(char dirname[])$/;"	f
+do_more	ch01/more01.c	/^void do_more(FILE* fp)$/;"	f
+do_more	ch01/more02.c	/^void do_more(FILE* fp)$/;"	f
+dostat	ch03/ls2.c	/^void dostat(char* file)$/;"	f
+exe	ch08/psh1.c	/^int exe(char* arglist[])$/;"	f
+execute	ch08/psh2.c	/^void execute(char* arglist[])$/;"	f
+f	ch06/sigdemo1.c	/^void f(int signum)$/;"	f
+fl_name	ch05/showtty.c	/^    char* fl_name;$/;"	m	struct:flaginfo	file:
+fl_value	ch05/showtty.c	/^    int fl_value;$/;"	m	struct:flaginfo	file:
+flaginfo	ch05/showtty.c	/^struct flaginfo$/;"	s	file:
+get_inode	ch04/spwd.c	/^ino_t get_inode(char* fname)$/;"	f
+get_ok_char	ch06/play_again3.c	/^int get_ok_char()$/;"	f
+get_ok_char	ch06/play_again4.c	/^int get_ok_char()$/;"	f
+get_response	ch06/play_again0.c	/^int get_response(char* question)$/;"	f
+get_response	ch06/play_again1.c	/^int get_response(char* question)$/;"	f
+get_response	ch06/play_again2.c	/^int get_response(char* question)$/;"	f
+get_response	ch06/play_again3.c	/^int get_response(char* question, int maxtries)$/;"	f
+get_response	ch06/play_again4.c	/^int get_response(char* question, int maxtries)$/;"	f
+gid_to_name	ch03/ls2.c	/^char* gid_to_name(gid_t gid)$/;"	f
+input_flags	ch05/showtty.c	/^struct flaginfo input_flags[] = $/;"	v	typeref:struct:flaginfo
+inthandler	ch07/sigactdemo.c	/^void inthandler(int s)$/;"	f
+inthandler	ch07/sigdemo3.c	/^void inthandler(int s)$/;"	f
+inum_to_name	ch04/spwd.c	/^void inum_to_name(ino_t inode_to_find, char* namebuf, int buflen)$/;"	f
+local_flags	ch05/showtty.c	/^struct flaginfo local_flags[] = $/;"	v	typeref:struct:flaginfo
+logout_tty	ch02/logout.c	/^int logout_tty(char* line)$/;"	f
+main	ch01/more01.c	/^int main(int ac, char* av[])$/;"	f
+main	ch01/more02.c	/^int main(int ac, char* av[])$/;"	f
+main	ch02/cp1.c	/^int main(int ac, char* av[])$/;"	f
+main	ch02/who1.c	/^int main()$/;"	f
+main	ch02/who2.c	/^int main()$/;"	f
+main	ch03/fileinfo.c	/^int main(int ac, char* av[])$/;"	f
+main	ch03/ls1.c	/^int main(int ac, char* av[])$/;"	f
+main	ch03/ls2.c	/^void main(int argc, char** argv)$/;"	f
+main	ch04/spwd.c	/^int main()$/;"	f
+main	ch05/echostate.c	/^int main()$/;"	f
+main	ch05/listchars.c	/^int main()$/;"	f
+main	ch05/setecho.c	/^int main(int ac, char* av[])$/;"	f
+main	ch05/showtty.c	/^int main()$/;"	f
+main	ch05/write0.c	/^void main(int argc, char* argv[])$/;"	f
+main	ch06/play_again0.c	/^int main()$/;"	f
+main	ch06/play_again1.c	/^int main()$/;"	f
+main	ch06/play_again2.c	/^int main()$/;"	f
+main	ch06/play_again3.c	/^int main()$/;"	f
+main	ch06/play_again4.c	/^int main()$/;"	f
+main	ch06/sigdemo1.c	/^int main()$/;"	f
+main	ch06/sigdemo2.c	/^int main()$/;"	f
+main	ch07/bounce1d.c	/^int main()$/;"	f
+main	ch07/bounce2d.c	/^int main()$/;"	f
+main	ch07/hello1.c	/^void main()$/;"	f
+main	ch07/hello2.c	/^int main()$/;"	f
+main	ch07/hello3.c	/^int main()$/;"	f
+main	ch07/hello4.c	/^int main()$/;"	f
+main	ch07/hello5.c	/^int main()$/;"	f
+main	ch07/sigactdemo.c	/^int main()$/;"	f
+main	ch07/sigdemo3.c	/^int main()$/;"	f
+main	ch07/sleep1.c	/^int main()$/;"	f
+main	ch07/ticker_demo.c	/^int main()$/;"	f
+main	ch08/exec1.c	/^int main()$/;"	f
+main	ch08/forkdemo1.c	/^void main()$/;"	f
+main	ch08/forkdemo2.c	/^void main()$/;"	f
+main	ch08/psh1.c	/^int main()$/;"	f
+main	ch08/psh2.c	/^int main()$/;"	f
+main	ch08/waitdemo1.c	/^void main()$/;"	f
+main	ch08/waitdemo2.c	/^void main()$/;"	f
+makestring	ch08/psh1.c	/^char* makestring(char* buf)$/;"	f
+makestring	ch08/psh2.c	/^char* makestring(char* buf)$/;"	f
+mod_to_letters	ch03/ls2.c	/^void mod_to_letters(int mode, char* str)$/;"	f
+move_msg	ch07/bounce1d.c	/^void move_msg(int signum)$/;"	f
+oops	ch02/cp1.c	/^void oops(char* s1, char* s2)$/;"	f
+oops	ch05/setecho.c	5;"	d	file:
+parent_code	ch08/waitdemo1.c	/^void parent_code(int childpid)$/;"	f
+parent_code	ch08/waitdemo2.c	/^void parent_code(int childpid)$/;"	f
+ppball	ch07/bounce.h	/^struct ppball$/;"	s
+printpathto	ch04/spwd.c	/^void printpathto(ino_t this_inode)$/;"	f
+quithandler	ch07/sigdemo3.c	/^void quithandler(int s)$/;"	f
+row	ch07/bounce1d.c	/^int row;    \/\/current row$/;"	v
+see_more	ch01/more01.c	/^int see_more()$/;"	f
+see_more	ch01/more02.c	/^int see_more(FILE* cmd)$/;"	f
+set_cr_noecho_mode	ch06/play_again2.c	/^void set_cr_noecho_mode()$/;"	f
+set_cr_noecho_mode	ch06/play_again3.c	/^void set_cr_noecho_mode()$/;"	f
+set_cr_noecho_mode	ch06/play_again4.c	/^void set_cr_noecho_mode()$/;"	f
+set_crmode	ch06/play_again1.c	/^void set_crmode()$/;"	f
+set_nodelay_mode	ch06/play_again3.c	/^void set_nodelay_mode()$/;"	f
+set_nodelay_mode	ch06/play_again4.c	/^void set_nodelay_mode()$/;"	f
+set_ticker	ch07/bounce.h	/^int set_ticker(int n_msecs)$/;"	f
+set_ticker	ch07/bounce1d.c	/^int set_ticker(int n_msecs)$/;"	f
+set_ticker	ch07/ticker_demo.c	/^int set_ticker(int n_msecs)$/;"	f
+set_up	ch07/bounce2d.c	/^void set_up()$/;"	f
+show_file_info	ch03/ls2.c	/^void show_file_info(char* filename, struct stat * info)$/;"	f
+show_flagset	ch05/showtty.c	/^void show_flagset(int thevalue, struct flaginfo thebitnames[])$/;"	f
+show_info	ch02/who1.c	/^void show_info(struct utmp * utbufp)$/;"	f
+show_info	ch02/who2.c	/^void show_info(struct utmp * utbufp)$/;"	f
+show_some_flags	ch05/showtty.c	/^void show_some_flags(struct termios* ttyp)$/;"	f
+show_stat_info	ch03/fileinfo.c	/^void show_stat_info(char* fname, struct stat* buf)$/;"	f
+showbaud	ch05/showtty.c	/^void showbaud(int thespeed)$/;"	f
+showtime	ch02/who2.c	/^void showtime(long timeval)$/;"	f
+symbol	ch07/bounce.h	/^    char symbol;$/;"	m	struct:ppball
+the_ball	ch07/bounce2d.c	/^struct ppball the_ball;$/;"	v	typeref:struct:ppball
+tty_mode	ch06/play_again1.c	/^int tty_mode(int how)$/;"	f
+tty_mode	ch06/play_again2.c	/^int tty_mode(int how)$/;"	f
+tty_mode	ch06/play_again3.c	/^int tty_mode(int how)$/;"	f
+tty_mode	ch06/play_again4.c	/^int tty_mode(int how)$/;"	f
+uid_to_name	ch03/ls2.c	/^char* uid_to_name(uid_t uid)$/;"	f
+wakeup	ch07/sleep1.c	/^void wakeup(int signum)$/;"	f
+wrap_up	ch07/bounce2d.c	/^void wrap_up()$/;"	f
+x_dir	ch07/bounce.h	/^        y_dir, x_dir;$/;"	m	struct:ppball
+x_pos	ch07/bounce.h	/^    int y_pos, x_pos,$/;"	m	struct:ppball
+x_ttg	ch07/bounce.h	/^        y_ttg, x_ttg, $/;"	m	struct:ppball
+x_ttm	ch07/bounce.h	/^        y_ttm, x_ttm,$/;"	m	struct:ppball
+y_dir	ch07/bounce.h	/^        y_dir, x_dir;$/;"	m	struct:ppball
+y_pos	ch07/bounce.h	/^    int y_pos, x_pos,$/;"	m	struct:ppball
+y_ttg	ch07/bounce.h	/^        y_ttg, x_ttg, $/;"	m	struct:ppball
+y_ttm	ch07/bounce.h	/^        y_ttm, x_ttm,$/;"	m	struct:ppball
