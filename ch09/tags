@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DFL_PROMPT	smsh1.c	7;"	d	file:
+NO	smsh.h	3;"	d
+YES	smsh.h	2;"	d
+emalloc	splitline.c	/^void* emalloc(size_t n)$/;"	f
+erealloc	splitline.c	/^void* erealloc(void* p, size_t n)$/;"	f
+execute	execute.c	/^int execute(char* argv[])$/;"	f
+fatal	splitline.c	/^void fatal(char* s1, char* s2, int n)$/;"	f
+freelist	splitline.c	/^void freelist(char** list)$/;"	f
+main	smsh1.c	/^int main()$/;"	f
+newstr	splitline.c	/^char* newstr(char* s, int l)$/;"	f
+next_cmd	splitline.c	/^char* next_cmd(char* prompt, FILE* fp)$/;"	f
+setup	smsh1.c	/^void setup()$/;"	f
+splitline	splitline.c	/^char** splitline(char* line)$/;"	f
