@@ -50,16 +50,19 @@ void execute(char* arglist[])
         case -1:
             perror("fork failed");
             exit(1);
+            break;
         case 0:
             execvp(arglist[0], arglist);
             perror("execvp failed");
             exit(1);
+            break;
         default:
             while (wait(&exitstate) != pid)
             {
                 ;
             }
             printf("child exited with status %d, %d\n", exitstate >> 8, exitstate & 0377);
+            break;
     }
 }
 
