@@ -12,7 +12,7 @@ void show_file_info(char*, struct stat*);
 void mod_to_letters(int , char*);
 char* uid_to_name(uid_t);
 char* gid_to_name(gid_t);
-void main(int argc, char** argv)
+int main(int argc, char** argv)
 {
     if(argc==1)
         do_list(".");
@@ -22,7 +22,7 @@ void main(int argc, char** argv)
             printf("%s:\n",*++argv);
             do_list(*argv);
         }
-    //这里加上return 0;会报错，然后文件会消失，不知道为什么
+    return 0;
 }
 void do_list(char* dirname)
 {
