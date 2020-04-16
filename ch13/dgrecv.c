@@ -33,7 +33,7 @@ int main(int ac, char* av[])
 
     //receive messages on that socket
     saddrlen = sizeof(saddr);
-    while ((msglen == recvfrom(sock, buf, BUFSIZ, 0, &saddrlen)) > 0 )
+    while ((msglen = recvfrom(sock, buf, BUFSIZ, 0, &saddr, &saddrlen)) > 0 )
     {
         buf[msglen] = '\0';
         printf("dgrecv:got a message: %s\n", buf);
@@ -47,6 +47,6 @@ void say_who_called(struct sockaddr_in* addrp)
 {
     char host[BUFSIZ];
     int port;
-    get_internet_address(host, BUFSIZ, &port, addro);
+    get_internet_address(host, BUFSIZ, &port, addrp);
     printf("from: %s: %d\n", host, port);
 }

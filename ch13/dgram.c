@@ -9,8 +9,7 @@
 
 #define HOSTLEN 256
 
-int make_internet_adress();
-
+int make_internet_adress(char*, int, struct sockaddr_in*);
 int make_dgram_server_socket(int portnum)
 {
     struct sockaddr_in saddr;       //build our address here

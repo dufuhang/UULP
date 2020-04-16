@@ -24,7 +24,7 @@ int main(int ac, char* av[])
     msg = av[3];
 
     //get a datagram socket
-    if ((sock = make_dgram_client_sock()) == -1)
+    if ((sock = make_dgram_client_socket()) == -1)
     {
         oops("cannot make socket", 2);
     }
@@ -33,7 +33,7 @@ int main(int ac, char* av[])
     make_internet_address(av[1], atoi(av[2]), &saddr);
 
     //send a string through the socket to that address
-    if (sendto(sock, msg, strlen(msg), 0, &saddr, sizeof(saddr)) == -1)
+    if (sendto(sock, msg, strlen(msg), 0, (struct sockaddr*)&saddr, sizeof(saddr)) == -1)
     {
         oops("sendto failed", 3);
     }
